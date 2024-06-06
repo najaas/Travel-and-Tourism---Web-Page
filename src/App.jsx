@@ -1,14 +1,12 @@
-import './App.css'
-import Mainrouter from './router/mainrouter'
-function App() {
+import "./App.css";
+import Section1 from "./Components/Section1";
 
+function App() {
   return (
     <>
-
-     <Mainrouter/>
-
+      <Section1 />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
