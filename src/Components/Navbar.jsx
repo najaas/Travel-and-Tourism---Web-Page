@@ -6,9 +6,9 @@ const Navbar = () => {
       <div className="flex flex-wrap items-center justify-between gap-5 w-full">
         <div className="flex gap-2 items-center">
           <a href="javascript:void(0)">
-            <img src={Logo} alt="logo" className="w-6" />
+            <img src={Logo} alt="logo" className="w-6" /> Travlog
           </a>
-          <h2 className="text-[24px] font-bold">Travlog</h2>
+          <h2 className="text-[24px] font-bold text-black">Travlog</h2>
         </div>
 
         <div
