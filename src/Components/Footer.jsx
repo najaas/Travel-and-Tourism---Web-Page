@@ -10,9 +10,11 @@ const footer = () => {
       <div className='w-[72%] h-[550px] flex justify-center items-center'>
 
       <div className='w-full h-[290px] '>
-        <div className='w-full h-[50px]'>
-          <div className='w-[150px] h-[0px]'>
-          <img src={Logo} alt="" /></div>
+        <div className='w-full h-[50px] flex'>
+          <div className='w-[50px] h-[0px] '>
+          <img src={Logo} alt="" />
+          </div>
+          <h2 className="text-[24px] font-bold ">Travlog</h2>
           </div>
         <div className='w-[80%] h-[160px] flex items-center'>
           <h1>Contrary to popular belief, Lorem Ipsum is not simply
