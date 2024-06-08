@@ -12,7 +12,7 @@ const Section1 = () => {
     <>
       <Navbar />
       <div className="px-4 sm:px-10 pb-20">
-        <div className="w-full md:h-[80vh] flex flex-col-reverse md:flex-row">
+        <div className="w-full md:h-[120vh] flex flex-col-reverse md:flex-row">
           <div className="w-full md:w-[50%] h-[40vh] md:h-full flex items-center justify-center">
             <div className="w-[90%] md:w-[80%] flex flex-col gap-3">
               <p className="text-xs sm:text-sm text-[#F85E9F]">Explore the world</p>
@@ -29,10 +29,15 @@ const Section1 = () => {
           </div>
         </div>
         <Companies />
+        <div className="mt-10 md:mt-15"></div>
         <Services />
+        <div className="mt-10 md:mt-15"></div>
         <Scroller />
+        <div className="mt-10 md:mt-15"></div> 
         <Section2 />
+        <div className="mt-10 md:mt-15"></div>
         <Section3 />
+        <div className="mt-10 md:mt-15"></div> 
       </div>
       <Footer />
     </>

@@ -1,0 +1,15 @@
+import React from 'react';
+import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
+
+const Button = ({ arrows, color = 'black' }) => {
+  return (
+    <button
+      className={`p-2 rounded-full border border-${color} text-${color} flex items-center justify-center`}
+      style={{ width: '40px', height: '40px' }}
+    >
+      {arrows === 'Left' ? <FaArrowLeftLong /> : <FaArrowRightLong />}
+    </button>
+  );
+};
+
+export default Button;

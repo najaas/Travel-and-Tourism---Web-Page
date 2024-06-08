@@ -6,7 +6,7 @@ import Bg from '../assets/BACKGROUND.png'
 
 const Section3 = () => {
   return (
-    <div className="w-full h-[100vh] flex items-center">
+    <div className="w-full h-[160vh] flex items-center">
       <div className="w-[50%] h-full flex items-center flex-col justify-center">
         <div className="w-[27vw] h-[30%] flex flex-col justify-evenly mb-10">
           <h1 className="text-2xl text-[#F85E9F]">KEY FEATURES</h1>

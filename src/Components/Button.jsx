@@ -1,12 +1,13 @@
 import React from 'react';
+import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 
-const Button = (props) => {
+const Button = ({ arrows, color = 'black' }) => {
   return (
     <button
-      className="w-[120px] h-[120px] rounded-full border-gray-400"
-      style={{ backgroundColor: props.color || 'white' }}
+      className={`p-2 rounded-full border text-${color} flex items-center justify-center ${arrows === 'Right' ? 'bg-[#5D50C6]' : ''}`}
+      style={{ width: '60px', height: '60px' }}
     >
-      {props.arrows}
+      {arrows === 'Left' ? <FaArrowLeftLong /> : <FaArrowRightLong style={{ color: arrows === 'Right' ? 'white' : '' }} />}
     </button>
   );
 };

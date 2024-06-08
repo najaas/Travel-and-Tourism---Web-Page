@@ -5,8 +5,8 @@ import cloudy from '../assets/cloudy 1.png'
 
 const Services = () => {
   return (
-    <div className="w-full h-[50vh] flex flex-col">
-      <div className="w-full h-full flex flex-col justify-center items-center gap-11">
+    <div className="w-full h-[80vh] flex flex-col justify-between">
+      <div className="w-full  flex flex-col justify-center items-center gap-11">
         <h1 className="text-[#F85E9F] text-3xl font-bold">Services</h1>
         <h3 className="text-3xl font-bold">Our top value categories for you</h3>
       </div>
