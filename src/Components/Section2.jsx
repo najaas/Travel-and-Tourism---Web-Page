@@ -22,8 +22,7 @@ const Section2 = () => {
             <h1>classical Latin literature from 45 BC.</h1>
           </div>
         </div>
-        {/* Uncomment below to show the additional frame image */}
-        {/* <img src={Fram1} alt="" className="w-[200px] mb-8" /> */}
+      
         <div className="w-[300px]">
           <img src={Fram} alt="" className="w-full" />
         </div>
